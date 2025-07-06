@@ -12,11 +12,7 @@ Only the above version(s) are actively maintained and protected under our curren
 
 ## Reporting a Vulnerability
 
-If you find a vulnerability in our app, please report it via email.
-
-- **Email**: `paryx.games@gmail.com`
-- **Subject format**: `[SECURITY] Vulnerability Found – (version number, e.g. 1.1.1)`
-> `[SECURITY] Vulnerability Found – 1.1.1`
+If you find a vulnerability in our app, please report it via the "Security" tab at the top. This will privately contact us maintainers to fix the error as soon as we can.
 
 🚫 **Do not** open a public issue, post a discussion, or edit the wiki with vulnerability details. Doing so could expose critical flaws to bad actors before they’re patched.
 
