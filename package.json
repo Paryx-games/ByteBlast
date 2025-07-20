@@ -8,7 +8,9 @@
   },
   "build": {
     "appId": "com.yourname.soundboard",
-    "asar": false
+    "asarUnpack": [
+      "src/preload.js"
+    ]
   },
   "keywords": [],
   "author": "",

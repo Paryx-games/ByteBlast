@@ -1,9 +1,11 @@
 const { app, BrowserWindow, ipcMain, dialog, globalShortcut } = require('electron');
 const path = require('path');
 
-const preloadPath = app.isPackaged
-    ? path.join(process.resourcesPath, 'app', 'src', 'preload.js')
-    : path.join(__dirname, 'preload.js');
+function getPreloadPath() {
+    return app.isPackaged
+        ? path.join(process.resourcesPath, 'app.asar.unpacked', 'src', 'preload.js')
+        : path.join(__dirname, 'preload.js');
+}
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -14,6 +16,7 @@ function createWindow() {
         webPreferences: {
             contextIsolation: true,
             preload: preloadPath,
+            devTools: true
         }
     });
 
