@@ -20,6 +20,7 @@ export default function App() {
         window.storage.save(slots);
     }, [slots]);
 
+    /*
     async function importSpotify() {
         if (!spotify?.api?.clientCredentialsGrant) {
             alert('Spotify integration not ready — set up credentials first!');
@@ -33,6 +34,7 @@ export default function App() {
             console.error('Spotify fetch failed:', err);
         }
     }
+    */
 
     async function uploadFiles() {
         const paths = await window.api.openFile();
