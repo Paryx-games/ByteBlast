@@ -1,5 +1,5 @@
 # ByteBlast
-A highly customised soundboard built for Windows.
+A custom built Electron soundboard built for Windows
 
 This is currently developed and maintained by **one person!** Therefore, updates can be slow.
 
