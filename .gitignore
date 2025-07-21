@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 node_modules/
 dist/
-=======
-node_modules/
-dist/
->>>>>>> 2679880f389289e9c5961e237c7e24d65c217195
 .DS_Store
+.qodo/
+.vscode/
+*.log
